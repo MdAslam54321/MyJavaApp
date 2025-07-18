@@ -1,0 +1,13 @@
+# Java class files
+*.class
+
+# IntelliJ / IDEA
+.idea/
+*.iml
+
+# Output folders
+/out/
+
+# OS files
+.DS_Store
+Thumbs.db
