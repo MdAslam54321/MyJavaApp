@@ -1,3 +1,5 @@
+package com.java.MyJavaApp;
+
 import com.java.MyJavaApp.util.Test;
 
 public class Main {
