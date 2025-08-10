@@ -9,6 +9,8 @@ public class Main {
         // Printing original sentence
         System.out.println(sentence);
         String reversedWords = Utils.reverseEachWord(sentence);
+
+        // Printing reverse of each words
         System.out.println(reversedWords);
     }
 }
