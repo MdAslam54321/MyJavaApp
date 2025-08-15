@@ -13,6 +13,7 @@ public class Utils {
                 .collect(Collectors.joining(" "));
     }
 
+    // Method to count characters of a sentence
     public static Map<Character, Long> countCharacterFreq(String sentence) {
         return sentence.chars()
                 .mapToObj(ch -> Character.toLowerCase((char) ch))
