@@ -1,21 +1,7 @@
 package com.java.MyJavaApp;
 
-import com.java.MyJavaApp.util.Constant;
-import com.java.MyJavaApp.util.Utils;
-
-import java.util.Map;
-
 public class Main {
     public static void main(String[] args) {
-        String sentence = Constant.JACKIE_CHAN;
-        // Printing original sentence
-        System.out.println(sentence);
-        String reversedWords = Utils.reverseEachWord(sentence);
 
-        // Printing reverse of each words
-        System.out.println(reversedWords);
-
-        Map<Character, Long> freqMap = Utils.countCharacterFreq(sentence);
-        System.out.println(freqMap);
     }
 }
