@@ -5,6 +5,6 @@ public class Main {
         System.out.println("Welcome to MyJavaApp!");
         System.out.println("Welcom back again!");
         System.out.println("Welcome back third time");
-        System.out.println("Bye");
+        System.out.println("Welcome again for fourth time");
     }
 }
